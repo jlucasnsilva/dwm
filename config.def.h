@@ -72,7 +72,7 @@ static const char *firefoxcmd[]  = { "firefox", NULL };
 static const char *bravecmd[]  = { "brave-browser", NULL };
 static const char *volumeup[]   = { "amixer", "set", "'Master'", "10%+",     NULL };
 static const char *volumedown[] = { "amixer", "set", "'Master'", "10%-",     NULL };
-static const char *volumemute[] = { "amixer", "-D", "pulse", "set", "Master", "1+", "toggle" };
+static const char *volumemute[] = { "amixer", "set", "'Master'", "1+", "toggle" };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
